@@ -40,10 +40,10 @@ Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/artic
  - _vCa_ : vmware cloud assembly .. VMWare's answer to terraforms. here's an __[intro](https://grantorchard.com/tango/introducing-vmware-cloud-automation-services/)__
 
 
-+-----------------------------------------------------+<br>
-|**WHY USE OPENSTACK and not terraform <--> vCentre** |<br>
-+-----------------------------------------------------+<br>
->`**_Terraform -> Maps to Openstack Heat!!_**` <br>
++----------------------------------------------------------------------------+<br>
+|**WHY USE OPENSTACK and not terraform <--> vCentre**                        |<br>
++----------------------------------------------------------------------------+<br>
+>**_`Terraform -> Maps to Openstack Heat!!`_** <br>
 
 ***
 ### Openstack dissected
