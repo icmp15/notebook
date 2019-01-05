@@ -14,36 +14,36 @@ Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/artic
 ***
 ### Openstack thoughts
 
-**hardware**
+**hardware** <br>
 
--compute --> VMs
--network --> VMWare NXS
--storage --> vSan
+ - compute --> VMs
+ - network --> VMWare NXS
+ - storage --> vSan
 
-just a side link on __[vxrail](http://blog.thenetworknerd.com/2018/03/31/a-tale-of-two-vcenters-vxrail-edition/)__
+>just a side link on __[vxrail](http://blog.thenetworknerd.com/2018/03/31/a-tale-of-two-vcenters-vxrail-edition/)__
 
-**virtualization layer**
-_ESX_
-_VM_ : --> Nova
-_NXS_ : --> Neutron with __[openstack plugin](https://wiki.openstack.org/wiki/Neutron/VMware_NSX_plugins)__
-_vSan_ : --> __[Cinder](https://www.openstack.org/assets/presentation-media/HK-Cinder-Driver-ajauch.pptx)__ 
+**virtualization layer**<br>
+ - _ESX_
+ - _VM_ : --> Nova
+ - _NXS_ : --> Neutron with __[openstack plugin](https://wiki.openstack.org/wiki/Neutron/VMware_NSX_plugins)__
+ - _vSan_ : --> __[Cinder](https://www.openstack.org/assets/presentation-media/HK-Cinder-Driver-ajauch.pptx)__ 
 
 
 **control plane**
-_vcentre_
-_openstack_ __[integrating with vcentre](https://docs.openstack.org/ocata/config-reference/compute/hypervisor-vmware.html)__
-_vRA_ .... on side note an interesting article on __[vRA and terraforms](https://grantorchard.com/implementation/2017/11/29/tf-provider-for-vra-first-look.html)__
+ - _vcentre_
+ - _openstack_ __[integrating with vcentre](https://docs.openstack.org/ocata/config-reference/compute/hypervisor-vmware.html)__
+ - _vRA_ .... on side note an interesting article on __[vRA and terraforms](https://grantorchard.com/implementation/2017/11/29/tf-provider-for-vra-first-look.html)__
 
 **configuration and management plane :_infra as code_**
 
-_terraform_  :https://www.terraform.io/docs/providers/openstack/
-_vCa_ : vmware cloud assembly .. VMWare's answer to terraforms. here's an __[intro](https://grantorchard.com/tango/introducing-vmware-cloud-automation-services/)__
+ - _terraform_  :https://www.terraform.io/docs/providers/openstack/
+ - _vCa_ : vmware cloud assembly .. VMWare's answer to terraforms. here's an __[intro](https://grantorchard.com/tango/introducing-vmware-cloud-automation-services/)__
 
 
-+-----------------------------------------------------+
-|**WHY USE OPENSTACK and not terraform <--> vCentre** |
-+-----------------------------------------------------+
-**_Terraform -> Maps to Openstack Heat!!_**
++-----------------------------------------------------+<br>
+|**WHY USE OPENSTACK and not terraform <--> vCentre** |<br>
++-----------------------------------------------------+<br>
+>`**_Terraform -> Maps to Openstack Heat!!_**` <br>
 
 ***
 ### Openstack dissected
@@ -52,7 +52,7 @@ __[nice map](https://www.openstack.org/assets/software/projectmap/openstack-map.
 
 ----------------------------
 
-has container and function management - but for the time being we'll ignore this.
+has container and function management - but for the time being we'll ignore this.<br>
 
 For containers we need focus on kubernetes ... relationship w/ OpenShift?
 __[openstack <--> openshift](https://blog.openshift.com/openshift-on-openstack-delivering-applications-better-together/)__
