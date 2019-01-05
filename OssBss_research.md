@@ -1,11 +1,13 @@
 ***
 
-ITU eTOM+ITIL standard: https://www.itu.int/rec/T-REC-M.3050-200702-I!Sup1/en
-Workday Revenue/Billing: https://www.workday.com/en-hk/applications/financial-management/revenue-management.html
+ITU eTOM+ITIL standard: https://www.itu.int/rec/T-REC-M.3050-200702-I!Sup1/en <br>
+Workday Revenue/Billing: https://www.workday.com/en-hk/applications/financial-management/revenue-management.html <br>
 
 https://www.technavio.com/blog/top-18-cloud-billing-services-companies
 
-https://www.redhat.com/en/files/resources/en-rhcf-enterprise-grade-mgmt-tech-detail-INC0277854.pdf
+https://www.redhat.com/en/files/resources/en-rhcf-enterprise-grade-mgmt-tech-detail-INC0277854.pdf <br>
+
+> **ManageIQ is the FOSS tool behind RHL __[Cloudforms](http://manageiq.org/)__** <br>
 
 ***
 
