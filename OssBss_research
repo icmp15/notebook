@@ -36,7 +36,12 @@ _openstack_ __[integrating with vcentre](https://docs.openstack.org/ocata/config
 **configuration and management plane**
 _terraform_  :https://www.terraform.io/docs/providers/openstack/
 
-**WHY USE OPENSTACK and not terraform <--> vCentre**
+**_Maps to Openstack Heat!!_**
+
++-----------------------------------------------------+
+|**WHY USE OPENSTACK and not terraform <--> vCentre** |
++-----------------------------------------------------+
+
 
 ***
 ### Openstack dissected
@@ -48,3 +53,4 @@ __[nice map](https://www.openstack.org/assets/software/projectmap/openstack-map.
 has container and function management - but for the time being we'll ignore this.
 
 For containers we need focus on kubernetes ... relationship w/ OpenShift
+
