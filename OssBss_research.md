@@ -41,7 +41,7 @@ Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/artic
 
 
 +-------------------------------------------------------------------------------------------------------------------------+<br>
-|  **WHY USE OPENSTACK and not terraform <--> vCentre**                                                                   |<br>
+|  **WHY USE OPENSTACK and not terraform <--> vCentre**                                                              ?    |<br>
 +-------------------------------------------------------------------------------------------------------------------------+<br>
 >**_`Terraform -> Maps to Openstack Heat!!`_** <br>
 
