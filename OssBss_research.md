@@ -13,6 +13,8 @@ https://www.redhat.com/en/files/resources/en-rhcf-enterprise-grade-mgmt-tech-det
 
 Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/articles/openstack-billing-cloud-kitty/)__
 
+`another aspect to cover is the whole Oracle VM Server, Oracle Linux side of story`
+
 ***
 ### Openstack thoughts
 
@@ -40,11 +42,11 @@ Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/artic
 
  - _terraform_  :https://www.terraform.io/docs/providers/openstack/
  - _vCa_ : vmware cloud assembly .. VMWare's answer to terraforms. here's an __[intro](https://grantorchard.com/tango/introducing-vmware-cloud-automation-services/)__
+ - _cloudforms_ ... it will be an interesting dissection between terraforms & this.
 
-
-+---------------------------------------------------------------------------------------+<br>
++--------------------------------------------------------------------------------------+<br>
 |  **WHY USE OPENSTACK and not terraform <--> vCentre**                                                              ?    |<br>
-+---------------------------------------------------------------------------------------+<br>
++--------------------------------------------------------------------------------------+<br>
 >**_`Terraform -> Maps to Openstack Heat!!`_** <br>
 
 ***
