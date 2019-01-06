@@ -15,6 +15,8 @@ Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/artic
 
 `another aspect to cover is the whole Oracle VM Server, Oracle Linux side of story`
 
+Link for a Cern DC running on openstack-> __[here](https://indico.cern.ch/event/637013/contributions/2739330/attachments/1542767/2420152/Wigner_Datacenter_20171019.pptx&usg=AOvVaw2LV4LMyaiB3jh1UsCqPeLi)__
+
 ***
 ### Openstack thoughts
 
@@ -42,7 +44,14 @@ Openstack billing: __[Openstack ceilometer](http://superuser.openstack.org/artic
 
  - _terraform_  :https://www.terraform.io/docs/providers/openstack/
  - _vCa_ : vmware cloud assembly .. VMWare's answer to terraforms. here's an __[intro](https://grantorchard.com/tango/introducing-vmware-cloud-automation-services/)__
- - _cloudforms_ ... it will be an interesting dissection between terraforms & this.
+ - _cloudforms_ ... 
+ 
+ > it will be an interesting dissection between terraforms & cloudforms.
+ > cloudforms provides a nice UI ... but for commandline we'll have to move to Ansible  as a sensible choice and
+ > as our good frnd Jim writes - anisble is not really immutabel infra:
+ > https://www.oreilly.com/learning/why-use-terraform
+ > https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c
+ 
 
 +--------------------------------------------------------------------------------------+<br>
 |  **WHY USE OPENSTACK and not terraform <--> vCentre**                                                              ?    |<br>
