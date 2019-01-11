@@ -27,6 +27,8 @@ Link for a Cern DC running on openstack-> __[here](https://indico.cern.ch/event/
  - storage --> vSan
 
 >just a side link on __[vxrail](http://blog.thenetworknerd.com/2018/03/31/a-tale-of-two-vcenters-vxrail-edition/)__
+> some more __[vxrail](https://www.dellemc.com/resources/en-us/asset/technical-guides-support-information/products/converged-infrastructure/h15104-vxrail-appliance-techbook.pdf)__ __[dell](https://www.dellemc.com/en-us/solutions/cloud/openstack/ready-bundle-for-openstack.htm)__ links on __[openstack](dell.com/openstack)__
+
 
 **virtualization layer**<br>
  - _ESX_
